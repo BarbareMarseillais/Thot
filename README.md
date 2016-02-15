@@ -3,7 +3,7 @@ Get rewarded for answering polls and helping local communities !
 
 Users :
 Maxime - BarbareMarseillais
-Laetitia - pteradera
+pteradera
 Pierre - 
 Adrien - 
 Mostafa - 
