@@ -1,0 +1,43 @@
+class User{
+String Opt name
+String Opt surname
+String login
+String Opt pseudo
+Coord private localisation
+Coord private home
+Shop[] ShopFollowed
+User[] usersFollowed
+
+public <Shop,Distance>[] getActiveShopsAround(int limitDistance){}
+
+
+
+}
+
+
+class Shop{
+String name
+String login
+String password
+String email
+Coord. localisation
+ShopType(-->Int) type
+String(50-2000) description
+
+PlageHoraire[7](--> 7 int, null possible) Opt horaireOuverture
+String Opt numTelephone
+Picture (--> String contenant l'adresse, NULL possible) Opt image // On mettra nous même des images prédéfinies par type de commerce
+String Opt adresse
+
+List<Sondage>  sondages
+List<Proposition> propositions
+
+}
+
+
+Format des données:
+Coord. -> Point dans MySQL
+PlageHoraire -> 	ind		debut1	fin1	debut2	fin2
+					Int		Heure	Heure	NULL	NULL
+Sondage? 			
+Proposition?
