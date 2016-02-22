@@ -1,10 +1,10 @@
-# Thoth
+# Thot
 Get rewarded for answering polls and helping local communities !
 
 Users :
 Maxime - BarbareMarseillais
 pteradera
-Pierre - 
+Pierre - ThotPierre
 Adrien - 
-Mostafa - 
-Thomas - 
+Mostafa - MustaphaEllouze
+Thomas - ThomasMeyers
