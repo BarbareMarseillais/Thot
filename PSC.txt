@@ -1,37 +1,51 @@
+Classe:
+
 class User{
-String Opt name
-String Opt surname
-String login
-String Opt pseudo
-Coord private localisation
-Coord private home
-Shop[] ShopFollowed
-User[] usersFollowed
-
-public <Shop,Distance>[] getActiveShopsAround(int limitDistance){}
-
-
+	String Opt name
+	String Opt surname
+	String login
+	String Opt pseudo
+	Coord private localisation
+	Coord private home
+	Shop[] shopFollowed
+	User[] usersFollowed
+	
+	//gets an array of Shops and orders it by user's preferences 
+	public Shop[] orderShops(Shop[] shops){}
+	
+	//return all the active shops around the user in a limitDistance radius and orders it if toOrder = true
+	public Shop[] getActiveShopsAround(float limitDistance, boolean toOrder = false){}
+	
+	//return all the active shops around the user in a limitDistance radius
+	public Shop[] getShopsAround(float limitDistance){}
+	
+	
 
 }
 
 
 class Shop{
-String name
-String login
-String password
-String email
-Coord. localisation
-ShopType(-->Int) type
-String(50-2000) description
-
-PlageHoraire[7](--> 7 int, null possible) Opt horaireOuverture
-String Opt numTelephone
-Picture (--> String contenant l'adresse, NULL possible) Opt image // On mettra nous même des images prédéfinies par type de commerce
-String Opt adresse
-
-List<Sondage>  sondages
-List<Proposition> propositions
-
+	String name
+	String login
+	String password
+	String email
+	Coord. localisation
+	ShopType(-->Int) type
+	String(50-2000) description
+	
+	PlageHoraire[7](--> 7 int, null possible) Opt horaireOuverture
+	String Opt numTelephone
+	Picture (--> String contenant l'adresse, NULL possible) Opt image 
+	// On mettra nous même des images prédéfinies par type de commerce
+	String Opt adresse
+	
+	List<Sondage>  sondages
+	List<Proposition> propositions
+	
+	//Retourne tous les commerces dont le nom contient PartNom (utiliser les regex dans MySQL)
+	static public getShopsByPartialName(String PartNom){}
+	
+	//
 }
 
 
