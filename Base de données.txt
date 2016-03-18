@@ -1,0 +1,12 @@
+Site
+thot.binets.fr
+
+Importation de l’index.html
+par ftp: hôte: thot.bin, login/mdp frankiz
+dans www/psc_thot/htdocs.
+
+Administration de la base de données
+http://phpmyadmin.bin/ 
+nom d'utilisateur: psc_thot 
+mot de passe: 1oQr3ByZctMy2QfqIKa 
+
