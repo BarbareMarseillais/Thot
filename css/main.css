@@ -1,5 +1,5 @@
 body {
-    font-family: Open sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -16,8 +16,6 @@ body {
 
 .description {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 55px;
     line-height: 1.5em;
     color: #444444;
@@ -28,12 +26,17 @@ body {
 
 .question {
     width: 100%;
-    padding: 35px 20px;
     line-height: 1.5em;
     color: #444444;
     background-color: #fff;
     box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    
+    
+}
+
+.reponse {
+    font-weight: 400;
 }
 
 .content {
@@ -60,11 +63,62 @@ body {
 
 .img {
     width: 100%;
-    padding-bottom: 35px;
-    padding-left: 2%;
-    padding-right: 2%;
+   
 }
 
 .title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 40px;
+    text-align: center
+}
+
+.main-description {
+    margin-top: -50px;
     
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.module {
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(http://www.buddhabar.com/img/carousel/Slides/Restaurants/Manille/1.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 35px;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+.titre-question {
+    color : #F79F81;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.texte-question {
+    margin: 20px;
+}
+
+.contenu {
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
